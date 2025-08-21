@@ -10,4 +10,6 @@ Once complete you can restart the app and test yourself again.
 
 The data tab shows you the user data over time and tracks your progress as well a graphical representation of that data. 
 
-
+*added GTK support for Linux compatibility
+  - the main.py will automatically select between TK and GTK GUI depending on OS in order to function properly with IME as TK showed problems with Wayland IME
+  - tk_only_main.py will just default to TK GUI
